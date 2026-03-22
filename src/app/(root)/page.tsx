@@ -63,7 +63,8 @@ const Home = async () => {
               imageSrc={p.imageSrc}
               price={p.price}
               badge={p.badge}
-              href={`/products/${p.id}`}
+              // href={`/products/${p.id}`}
+              href="#"
             />
           ))}
         </div>
